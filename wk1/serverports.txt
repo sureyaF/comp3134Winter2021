@@ -1,0 +1,43 @@
+1) What is the definition of server port?
+
+The answer is: 
+A port number is a way to identify a specific process to which an Internet or other network message is to be forwarded when it arrives at a server.
+
+2) What is server port range?
+
+The answer is:
+• Well-known ports—Ports in the range 0 to 1023
+• Registered ports—Ports in the range 1024 to 49151
+• Dynamic ports—Ports in the range 49152 to 65535
+
+3) How many bits does number above represent?
+
+The answer is:
+16-bit
+
+4) State 10 common server ports
+
+The answer is:
+Port Number	Service		Meaning
+7	                 Echo		Used to echo data back to the sender
+9	                 Discard		Used to discard data at receiver
+13	                 Daytime		Reports time information in user-friendly format
+17		Quote		Returns a “quote of the day” (rarely used today)
+19		Chargen		Character generator
+53		DNS		Domain Name Service
+67		DHCP server	Server port used to send configuration information
+68		DHCP client	Client port used to receive configuration information
+69		TFTP		Trivial file transfer
+161		SNMP		Used to receive network management queries
+162		SNMP traps	Used to receive network problem reports
+1011–1023	Reserved		Reserved for future use
+
+_______________________________________________
+Explanation(s)
+_______________________________________________
+bits		5		4		3		2		1
+max vals	32		16		8		4		2
+
+
+
+2 ^ N 
