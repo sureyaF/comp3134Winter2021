@@ -1,0 +1,75 @@
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$  ping georgebrown.ca
+
+Pinging georgebrown.ca [99.79.139.11] with 32 bytes of data:
+Reply from 99.79.139.11: bytes=32 time=25ms TTL=48
+Reply from 99.79.139.11: bytes=32 time=23ms TTL=48
+Reply from 99.79.139.11: bytes=32 time=20ms TTL=48
+Reply from 99.79.139.11: bytes=32 time=22ms TTL=48
+
+Ping statistics for 99.79.139.11:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 20ms, Maximum = 25ms, Average = 22ms
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$ ^C
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$ ping facebook.com
+
+Pinging facebook.com [2a03:2880:f10e:83:face:b00c:0:25de] with 32 bytes of data:
+Reply from 2a03:2880:f10e:83:face:b00c:0:25de: time=14ms
+Reply from 2a03:2880:f10e:83:face:b00c:0:25de: time=14ms
+Reply from 2a03:2880:f10e:83:face:b00c:0:25de: time=16ms
+Reply from 2a03:2880:f10e:83:face:b00c:0:25de: time=14ms
+
+Ping statistics for 2a03:2880:f10e:83:face:b00c:0:25de:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 14ms, Maximum = 16ms, Average = 14ms
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$ ^C
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$  ping stackoverflow.com
+
+Pinging stackoverflow.com [151.101.1.69] with 32 bytes of data:
+Reply from 151.101.1.69: bytes=32 time=9ms TTL=58
+Reply from 151.101.1.69: bytes=32 time=26ms TTL=58
+Reply from 151.101.1.69: bytes=32 time=15ms TTL=58
+Reply from 151.101.1.69: bytes=32 time=11ms TTL=58
+
+Ping statistics for 151.101.1.69:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 26ms, Average = 15ms
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$ ^C
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$  ping instagram.com
+
+Pinging instagram.com [2406:da00:ff00::3d3:9152] with 32 bytes of data:
+Reply from 2406:da00:ff00::3d3:9152: time=31ms
+Reply from 2406:da00:ff00::3d3:9152: time=33ms
+Reply from 2406:da00:ff00::3d3:9152: time=31ms
+Reply from 2406:da00:ff00::3d3:9152: time=30ms
+
+Ping statistics for 2406:da00:ff00::3d3:9152:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 30ms, Maximum = 33ms, Average = 31ms
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~ (master)
+$ ping geeksforgeeks.org
+
+Pinging geeksforgeeks.org [34.218.62.116] with 32 bytes of data:
+Request timed out.
+Request timed out.
+
+Ping statistics for 34.218.62.116:
+    Packets: Sent = 2, Received = 0, Lost = 2 (100% loss),

@@ -1,0 +1,112 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get update
+Get:1 http://mirrors.digitalocean.com/ubuntu focal InRelease [265 kB]
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Get:3 http://mirrors.digitalocean.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://mirrors.digitalocean.com/ubuntu focal-backports InRelease [101 kB]
+Get:5 http://mirrors.digitalocean.com/ubuntu focal-updates/main amd64 Packages [768 kB]
+Get:6 http://mirrors.digitalocean.com/ubuntu focal-updates/universe amd64 Packages [727 kB]
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [455 kB]
+Fetched 2538 kB in 2s (1341 kB/s)
+^C
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+apache2-utils is already the newest version (2.4.41-4ubuntu3.1).
+0 upgraded, 0 newly installed, 0 to remove and 100 not upgraded.
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping georgebrown.ca
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=49 time=9.58 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=49 time=8.62 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=49 time=8.47 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=49 time=8.47 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=49 time=8.61 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=49 time=8.45 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=49 time=8.44 ms
+^C
+--- georgebrown.ca ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6010ms
+rtt min/avg/max/mdev = 8.439/8.662/9.581/0.381 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping facebook.com
+PING facebook.com (31.13.80.36) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=1 ttl=59 time=1.87 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=2 ttl=59 time=0.355 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=3 ttl=59 time=0.343 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=4 ttl=59 time=0.375 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=5 ttl=59 time=0.341 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=6 ttl=59 time=0.305 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=7 ttl=59 time=0.356 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=8 ttl=59 time=0.343 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=9 ttl=59 time=0.355 ms
+^C
+--- facebook.com ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8164ms
+rtt min/avg/max/mdev = 0.305/0.515/1.868/0.478 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# stackoverflow.com
+stackoverflow.com: command not found
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping stackoverflow.com
+PING stackoverflow.com (151.101.129.69) 56(84) bytes of data.
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=1 ttl=61 time=1.39 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=2 ttl=61 time=0.471 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=3 ttl=61 time=0.445 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=4 ttl=61 time=0.449 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=5 ttl=61 time=0.445 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=6 ttl=61 time=0.430 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=7 ttl=61 time=0.387 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=8 ttl=61 time=0.474 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=9 ttl=61 time=0.412 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=10 ttl=61 time=0.440 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=11 ttl=61 time=0.379 ms
+64 bytes from 151.101.129.69 (151.101.129.69): icmp_seq=12 ttl=61 time=0.491 ms
+^C
+--- stackoverflow.com ping statistics ---
+12 packets transmitted, 12 received, 0% packet loss, time 11226ms
+rtt min/avg/max/mdev = 0.379/0.517/1.388/0.264 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping instagram.com
+PING instagram.com (54.145.10.249) 56(84) bytes of data.
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=1 ttl=237 time=24.6 ms
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=2 ttl=237 time=23.7 ms
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=3 ttl=237 time=23.7 ms
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=4 ttl=237 time=23.8 ms
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=5 ttl=237 time=23.7 ms
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=6 ttl=237 time=23.7 ms
+64 bytes from ec2-54-145-10-249.compute-1.amazonaws.com (54.145.10.249): icmp_seq=7 ttl=237 time=23.7 ms
+^C
+--- instagram.com ping statistics ---
+8 packets transmitted, 7 received, 12.5% packet loss, time 7012ms
+rtt min/avg/max/mdev = 23.679/23.850/24.626/0.320 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#  ping geeksforgeeks.com
+PING geeksforgeeks.com (199.59.242.153) 56(84) bytes of data.
+^[[A^C
+--- geeksforgeeks.com ping statistics ---
+12 packets transmitted, 0 received, 100% packet loss, time 11241ms
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping geeksforgeeks.org
+PING geeksforgeeks.org (34.218.62.116) 56(84) bytes of data.
+^C
+--- geeksforgeeks.org ping statistics ---
+3 packets transmitted, 0 received, 100% packet loss, time 2042ms
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping facebook.com -w 60
+PING facebook.com (31.13.80.36) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=1 ttl=59 time=1.22 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=2 ttl=59 time=0.481 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=3 ttl=59 time=0.294 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=4 ttl=59 time=0.364 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=5 ttl=59 time=0.338 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=6 ttl=59 time=0.343 ms
+64 bytes from edge-star-mini-shv-01-yyz1.facebook.com (31.13.80.36): icmp_seq=7 ttl=59 time=0.326 ms
+^C
+--- facebook.com ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6096ms
+rtt min/avg/max/mdev = 0.294/0.480/1.217/0.305 ms
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping google.com -w 60
+PING google.com (172.217.1.14) 56(84) bytes of data.
+64 bytes from iad23s25-in-f14.1e100.net (172.217.1.14): icmp_seq=1 ttl=121 time=1.64 ms
+64 bytes from iad23s25-in-f14.1e100.net (172.217.1.14): icmp_seq=2 ttl=121 time=0.636 ms
+64 bytes from iad23s25-in-f14.1e100.net (172.217.1.14): icmp_seq=3 ttl=121 time=0.576 ms
+64 bytes from iad23s25-in-f14.1e100.net (172.217.1.14): icmp_seq=4 ttl=121 time=0.959 ms
+^C
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3028ms
+rtt min/avg/max/mdev = 0.576/0.952/1.637/0.421 ms

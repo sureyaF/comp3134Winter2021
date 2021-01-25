@@ -1,0 +1,79 @@
+ $ tracert georgebrown.ca
+
+Tracing route to georgebrown.ca [99.79.139.11]
+over a maximum of 30 hops:
+
+  1     5 ms     3 ms     3 ms  CODA4582 [192.168.0.1]
+  2    28 ms    10 ms    13 ms  99.225.112.1
+  3    32 ms    20 ms    11 ms  8084-dgw02.etob.rmgt.net.rogers.com [24.156.149.13]
+  4    16 ms    15 ms    36 ms  3009-cgw01.bloor.rmgt.net.rogers.com [69.63.248.185]
+  5    45 ms     9 ms     7 ms  209.148.235.210
+  6     *        *        *     Request timed out.
+  7    28 ms    14 ms    18 ms  52.93.3.72
+  8    15 ms    12 ms    14 ms  52.93.3.81
+  9     *        *        *     Request timed out.
+ 10    52 ms    22 ms    18 ms  150.222.246.59
+ 11    42 ms    25 ms    22 ms  52.94.81.124
+ 12    47 ms    24 ms    26 ms  52.94.83.81
+ 13    48 ms    22 ms    24 ms  52.94.83.136
+ 14    17 ms    64 ms    27 ms  52.94.82.13
+ 15    53 ms    19 ms    19 ms  52.94.81.12
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21    54 ms    28 ms   141 ms  ec2-99-79-139-11.ca-central-1.compute.amazonaws.com [99.79.139.11]
+
+Trace complete.
+$ tracert geeksforgeeks.org
+
+Tracing route to geeksforgeeks.org [34.218.62.116]
+over a maximum of 30 hops:
+  1     3 ms     2 ms     3 ms  CODA4582 [192.168.0.1]
+  2    35 ms    13 ms    13 ms  99.225.112.1
+  3    23 ms    17 ms    10 ms  8084-dgw02.etob.rmgt.net.rogers.com [24.156.149.13]
+  4    15 ms    13 ms    17 ms  3009-cgw01.bloor.rmgt.net.rogers.com [69.63.248.185]
+  5    13 ms    11 ms    14 ms  9403-cgw01.ym.rmgt.net.rogers.com [209.148.235.230]
+  6    52 ms    31 ms    46 ms  209.148.237.21
+  7    53 ms    31 ms    25 ms  be812.ccr41.ord03.atlas.cogentco.com [154.54.9.9]
+  8    44 ms    27 ms    22 ms  be2765.ccr41.ord01.atlas.cogentco.com [154.54.45.17]
+  9    71 ms    36 ms    64 ms  be2831.ccr21.mci01.atlas.cogentco.com [154.54.42.165]
+ 10    68 ms    47 ms    53 ms  be3035.ccr21.den01.atlas.cogentco.com [154.54.5.89]
+ 11    88 ms    59 ms    88 ms  be3037.ccr21.slc01.atlas.cogentco.com [154.54.41.145]
+y 12    80 ms   102 ms   102 ms  be3109.ccr21.sfo01.atlas.cogentco.com [154.54.44.137]
+ 13   113 ms   100 ms   101 ms  be3669.ccr41.sjc03.atlas.cogentco.com [154.54.43.10]
+ 14    98 ms   101 ms   102 ms  38.88.224.218
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+
+$ tracert stackoverflow.com
+
+Tracing route to stackoverflow.com [151.101.193.69]
+over a maximum of 30 hops:
+
+  1     3 ms     3 ms     3 ms  CODA4582 [192.168.0.1]
+  2    20 ms    39 ms    10 ms  99.225.112.1
+  3    22 ms    12 ms    12 ms  8084-dgw02.etob.rmgt.net.rogers.com [24.156.149.13]
+  4    13 ms    10 ms    12 ms  3009-cgw01.bloor.rmgt.net.rogers.com [69.63.248.185]
+  5    14 ms    14 ms    14 ms  209.148.235.210
+  6    49 ms    13 ms    17 ms  167.82.128.22
+  7    41 ms    13 ms   193 ms  151.101.193.69
+
+Trace complete.

@@ -1,0 +1,5 @@
+get ip domain of georgebrown.ca ---> IP Address: 99.79.139.11
+get ip domain of facebook.com ---> IP Address: 157.240.0.35
+get ip domain of stackoverflow.com ---> IP Address: 151.101.129.69
+get ip domain of  instagram.com ---> IP Address: 3.212.101.196
+get ip domain of geeksforgeeks.com ---> IP Address: 34.218.62.116
