@@ -1,0 +1,20 @@
+===========TASK4=============
+4) Determine route from your local machine to the company’s network machine
+
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~/comp3134Winter2021/labtest1_101062225 (main)
+$ tracert hireamaid.ca
+
+Tracing route to hireamaid.ca [2606:4700:13b:dad6:b50e:9d7a:689c:23bb]
+over a maximum of 30 hops:
+
+  1     4 ms     2 ms     3 ms  2607:fea8:129f:ad60:200:ff:fe00:2
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     *        *        *     Request timed out.
+  6     *        *        *     Request timed out.
+  7    52 ms    18 ms    12 ms  2606:4700:13b:dad6:b50e:9d7a:689c:23bb
+
+Trace complete.
+

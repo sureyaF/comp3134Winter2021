@@ -1,0 +1,16 @@
+==================TASK3========================
+3) Verify that the server can communicate with another computer or network (
+
+reyaf@LAPTOP-IV01BM99 MINGW64 ~/comp3134Winter2021/labtest1_101062225 (main)
+$ ping hireamaid.ca
+
+Pinging hireamaid.ca [2606:4700:13b:dad6:b50e:9d7a:689c:23bb] with 32 bytes of data:
+Reply from 2606:4700:13b:dad6:b50e:9d7a:689c:23bb: time=21ms
+Reply from 2606:4700:13b:dad6:b50e:9d7a:689c:23bb: time=44ms
+Reply from 2606:4700:13b:dad6:b50e:9d7a:689c:23bb: time=14ms
+Reply from 2606:4700:13b:dad6:b50e:9d7a:689c:23bb: time=13ms
+
+Ping statistics for 2606:4700:13b:dad6:b50e:9d7a:689c:23bb:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 13ms, Maximum = 44ms, Average = 23ms

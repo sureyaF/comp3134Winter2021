@@ -1,0 +1,31 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#  tcpdump -A -i eth0 -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+06:53:12.983952 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 3313625076:3313625184, ack 2864517459, win 501, length 108
+E...5.@.@....].>c.q............SP.......J...;.q.n......;..y.."....`0L...:$. N..g{.....y......N.+FR...,..I{8l.y....t..U..*...M.....Wa.....I?`._>F}<=.
+06:53:12.985741 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..L5.@.@..>.].>c.q........`...SP.......&..H..OyZ~.,........C`K.,w....I.,...
+06:53:12.985879 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E...5.@.@....].>c.q............SP..........&........w..........}..'5..8....e.|....6..u.......H.....qt].|..@.i....[.Hj........D..^.........u  '..Yc.y.
+06:53:12.986144 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..L5.@.@..<.].>c.q............SP........@R....b..0K.o..k7...B/A...e.[8Hi...
+06:53:12.986792 IP 142.93.146.62.38259 > 8.8.8.8.domain: 56386+ PTR? 199.113.225.99.in-addr.arpa. (45)
+E..IB.@.@..3.].>.....s.5.50..B...........199.113.225.99.in-addr.arpa.....
+06:53:12.995226 IP 99.225.113.199.54194 > 142.93.146.62.ssh: Flags [.], ack 108, win 511, length 0
+E..(.l@.y.=.c.q..].>.......S...`P...y.........
+06:53:13.002030 IP 142.93.146.62.ssh > 45.227.254.10.52718: Flags [P.], seq 600274332:600274384, ack 3940055434, win 502, options [nop,nop,TS val 1077662264 ecr 494097422], length 52
+E..hNE@.@....].>-..
+....#.u...y.....L......
+@;.8.sT.... S   ...`$...|...Z..m.j.~.Rw.....N4.@,..q.]...:.2lB
+06:53:13.007732 IP 99.225.113.199.54194 > 142.93.146.62.ssh: Flags [.], ack 288, win 511, length 0
+E..(.m@.y.=.c.q..].>.......S....P...y!........
+06:53:13.008359 IP 8.8.8.8.domain > 142.93.146.62.38259: 56386 1/0/0 PTR cpe688f2e2ecac3-cm688f2e2ecac0.cpe.net.cable.rogers.com. (114)
+E.......|........].>.5.s.z.G.B...........199.113.225.99.in-addr.arpa................9.cpe688f2e2ecac3-cm688f2e2ecac0.cpe.net.cable.rogers.com.
+06:53:13.114750 IP 45.227.254.10.52718 > 142.93.146.62.ssh: Flags [P.], seq 1:85, ack 52, win 66, options [nop,nop,TS val 494097459 ecr 1077662264], length 84
+E...#.@.8...-..
+.].>......y.#.u....BE......
+.sT3@;.8...@|..[.q~..P..J..1.   .Q.4...:..(q.0#.+DX...Q...u....Nb......K...I..}.O.j..T...s..[.
+10 packets captured
+250 packets received by filter
+212 packets dropped by kernel
+

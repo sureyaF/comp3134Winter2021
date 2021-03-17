@@ -1,0 +1,115 @@
+
+========TASK2=====================
+2) Output the domain registration and hosting information
+
+=========================hosting Info===========================
+Name
+Rebel.ca Corp.
+Whois Server
+whois.ca.fury.ca
+Referral URL
+www.rebel.ca
+Status
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Important Dates
+Expires On
+2023-10-30
+Registered On
+2008-10-31
+Updated On
+2019-09-19
+Name Servers
+david.ns.cloudflare.com
+1
+dee.ns.cloudflare.com
+1
+Similar Domains
+hirea-skip.co.uk | hirea.bike | hirea.cab | hirea.camera | hirea.cn | hirea.co.uk | hirea.com | hirea.com.au | hirea.guru | hirea.info | hirea.lawyer | hirea.limo | hirea.net | hirea.ninja | hirea.org | hirea.org.hk | hirea.pro | hirea.taxi | hirea.tel | hirea1techno.com |
+Domain Name: hireamaid.ca Registry
+Domain ID: D828409-CIRA Registrar WHOIS Server: whois.ca.fury.ca
+
+=============================Domain Registrartion Data=============================
+
+Registrant Contact Information:
+Name
+Hire A Maid Housecleaning Services Inc.
+Organization
+Address
+377 Dalhousie St. Suite 201
+City
+Ottawa
+State / Province
+ON
+Postal Code
+K1N9N8
+Country
+CA
+Phone
++1.8666207111
+Fax
++1.6137061248
+Email
+
+
+Administrative Contact Information:
+Name
+Hire A Maid Housecleaning Services Inc.
+Organization
+Address
+377 Dalhousie St. Suite 201
+City
+Ottawa
+State / Province
+ON
+Postal Code
+K1N9N8
+Country
+CA
+Phone
++1.8666207111
+Fax
++1.6137061248
+Email
+
+
+Technical Contact Information:
+Name
+Hire A Maid Housecleaning Services Inc.
+Organization
+Address
+377 Dalhousie St. Suite 201
+City
+Ottawa
+State / Province
+ON
+Postal Code
+K1N9N8
+Country
+CA
+Phone
++1.8666207111
+Fax
++1.6137061248
+Email
+
+
+Billing Contact Information:
+Name
+Hire A Maid Housecleaning Services Inc.
+Organization
+Address
+377 Dalhousie St. Suite 201
+City
+Ottawa
+State / Province
+ON
+Postal Code
+K1N9N8
+Country
+CA
+Phone
++1.8666207111
+Fax
++1.6137061248
+Email

@@ -1,0 +1,16 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:15:28.680288 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 3337670272:3337670380, ack 2864567847, win 501, length 108
+07:15:28.680407 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 108:144, ack 1, win 501, length 36
+07:15:28.680511 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 144:252, ack 1, win 501, length 108
+07:15:28.680589 IP 142.93.146.62.ssh > 99.225.113.199.54194: Flags [P.], seq 252:288, ack 1, win 501, length 36
+07:15:28.699963 IP 99.225.113.199.54194 > 142.93.146.62.ssh: Flags [.], ack 288, win 4879, length 0
+07:15:28.907211 IP 159.65.133.50.46070 > 142.93.146.62.ssh: Flags [.], ack 1646929682, win 502, options [nop,nop,TS val 3750645346 ecr 592853281], length 0
+07:15:28.929474 IP 142.93.146.62.ssh > 159.65.133.50.46070: Flags [P.], seq 1:42, ack 0, win 510, options [nop,nop,TS val 592853563 ecr 3750645346], length 41
+07:15:29.188284 IP 159.65.133.50.46070 > 142.93.146.62.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 3750645627 ecr 592853563], length 0
+07:15:29.188346 IP 159.65.133.50.46070 > 142.93.146.62.ssh: Flags [P.], seq 0:21, ack 42, win 502, options [nop,nop,TS val 3750645627 ecr 592853563], length 21
+07:15:29.188393 IP 142.93.146.62.ssh > 159.65.133.50.46070: Flags [.], ack 21, win 510, options [nop,nop,TS val 592853822 ecr 3750645627], length 0
+10 packets captured
+185 packets received by filter
+148 packets dropped by kernel

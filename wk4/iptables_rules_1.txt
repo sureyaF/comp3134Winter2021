@@ -1,0 +1,136 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# man iptables
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get update
+Err:1 http://mirrors.digitalocean.com/ubuntu focal InRelease
+  Temporary failure resolving 'mirrors.digitalocean.com'
+Err:2 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:3 http://mirrors.digitalocean.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'mirrors.digitalocean.com'
+Err:4 http://mirrors.digitalocean.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'mirrors.digitalocean.com'
+Reading package lists... Done
+W: Failed to fetch http://mirrors.digitalocean.com/ubuntu/dists/focal/InRelease  Temporary failure resolving 'mirrors.digitalocean.com'
+W: Failed to fetch http://mirrors.digitalocean.com/ubuntu/dists/focal-updates/InRelease  Temporary failure resolving 'mirrors.digitalocean.com'
+W: Failed to fetch http://mirrors.digitalocean.com/ubuntu/dists/focal-backports/InRelease  Temporary failure resolving 'mirrors.digitalocean.com'
+W: Failed to fetch http://security.ubuntu.com/ubuntu/dists/focal-security/InRelease  Temporary failure resolving 'security.ubuntu.com'
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# apt-get install iptables
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+iptables is already the newest version (1.8.4-3ubuntu2).
+iptables set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 107 not upgraded.
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# iptables -L -v
+Chain INPUT (policy DROP 45 packets, 4376 bytes)
+ pkts bytes target     prot opt in     out     source               destination 
+  498 36277 ACCEPT     tcp  --  any    any     anywhere             anywhere             tcp dpt:ssh ctstate NEW,ESTABLISHED
+    2    80 ACCEPT     tcp  --  any    any     anywhere             anywhere             tcp dpt:http ctstate NEW,ESTABLISHED
+    0     0 ACCEPT     tcp  --  any    any     anywhere             anywhere             tcp dpt:https ctstate NEW,ESTABLISHED
+
+Chain FORWARD (policy DROP 0 packets, 0 bytes)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain OUTPUT (policy ACCEPT 532 packets, 146K bytes)
+ pkts bytes target     prot opt in     out     source               destination 
+    1    44 ACCEPT     tcp  --  any    any     anywhere             anywhere             tcp spt:http ctstate ESTABLISHED
+    0     0 ACCEPT     tcp  --  any    any     anywhere             anywhere             tcp spt:https ctstate ESTABLISHED
+
+Chain f2b-sshd (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-after-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-after-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-after-logging-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-after-logging-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-after-logging-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-after-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-before-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-before-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-before-logging-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-before-logging-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-before-logging-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-before-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-logging-allow (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-logging-deny (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-not-local (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-reject-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-reject-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-reject-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-skip-to-policy-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-skip-to-policy-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-skip-to-policy-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-track-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-track-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-track-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-limit (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-limit-accept (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-logging-forward (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-logging-input (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-logging-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 
+
+Chain ufw-user-output (0 references)
+ pkts bytes target     prot opt in     out     source               destination 

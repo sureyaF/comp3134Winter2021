@@ -1,0 +1,16 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -n -i eth0 -c 10
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+07:14:29.662836 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 3337667396:3337667504, ack 2864567535, win 501, length 108
+07:14:29.662954 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 108:144, ack 1, win 501, length 36
+07:14:29.663060 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 144:252, ack 1, win 501, length 108
+07:14:29.663165 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 252:288, ack 1, win 501, length 36
+07:14:29.663379 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 288:460, ack 1, win 501, length 172
+07:14:29.663473 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 460:496, ack 1, win 501, length 36
+07:14:29.663580 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 496:644, ack 1, win 501, length 148
+07:14:29.663665 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 644:680, ack 1, win 501, length 36
+07:14:29.663774 IP 142.93.146.62.22 > 99.225.113.199.54194: Flags [P.], seq 680:828, ack 1, win 501, length 148
+07:14:29.674177 IP 99.225.113.199.54194 > 142.93.146.62.22: Flags [.], ack 828, win 4877, length 0
+10 packets captured
+12 packets received by filter
+0 packets dropped by kernel
