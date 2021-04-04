@@ -1,0 +1,3 @@
+mitigation techniques:
+1. take path variable as arugment in basename() method, as well as /var/www/html to prevent users to see files before html directory
+2. path variable argument in file_exists() method, echo if file exists or not based on a if else statement

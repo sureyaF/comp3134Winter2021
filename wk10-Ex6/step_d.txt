@@ -1,0 +1,5 @@
+ failed to open dir
+  No such file or directory in
+   /var/www/html/directory_traversal_part1.php on line 7
+
+

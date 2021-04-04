@@ -1,0 +1,26 @@
+Task Number: 1
+Domain: thecanadianpress.com
+Hidden Inputs:
+            name(1): is_submit_1
+            value(1): 1
+            method(1):post
+
+            name(2):lang
+            value(2):en
+            method:get
+
+            name(3):state_1
+            value(3):WyJbXSIsIjRlZTc5YzVkZGY0NWUyZjVkOTVlZmU3MWExNmJhMzdkIl0=
+            method(3): post
+
+Task Number: 2
+curl -X GET https://www.youtube.com/results?search_query=happy
+
+Task Number: 3
+root@comp3134w21Cyber:~# hping3 -c 1000 -S --faster -s 3490 -p 443 178.128.237.247
+HPING 178.128.237.247 (eth0 178.128.237.247): S set, 40 headers + 0 data bytes
+
+--- 178.128.237.247 hping statistic ---
+1000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
