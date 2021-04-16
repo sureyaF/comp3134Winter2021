@@ -1,0 +1,18 @@
+2 a)
+<body><button type="button" onclick="myFunc()">background Dark Mode</button>
+<button onclick="myFunction()">Background light mode</button></body>
+<script>function myFunc() {document.body.style.backgroundColor = "darkblue";}
+function myFunction() {document.body.style.backgroundColor = "lightblue";}</script>
+
+
+2 b)
+<?php
+  // Show all information
+phpinfo();
+?>
+
+
+2 c)
+<h1>intro cyber security</h1>
+<p>Name: Sureya Farah</p>
+<p>Student ID: 101062225</p>

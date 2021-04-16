@@ -1,0 +1,5 @@
+1. When I typed Ben I got no result because active = 0 for Ben inside the database, but search looks for active = 1. 
+
+2. I couldn't find a result to my request as the input I used is out of the list in the database/records. 
+
+3.I could see all the infos from the database records because it isn't sanitized and this can be easily exploited. 
