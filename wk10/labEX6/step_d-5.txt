@@ -1,0 +1,2 @@
+an array that also looks like a folder directory with the content of www folder
+problem is that i can navigate to any folder of the droplet but this information given has dot opertator instead of exploting valuable information
