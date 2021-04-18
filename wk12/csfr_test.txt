@@ -1,0 +1,2 @@
+I noticed that because we are now checking which form requests is coming from 
+it allows or disallows the loging to happen.

@@ -1,0 +1,2 @@
+strip_tags() --> strips any html/javascript tags evident in param
+htmlentities() --> converts characters to html entities (<script> converted to html)

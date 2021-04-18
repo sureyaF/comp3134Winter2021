@@ -1,0 +1,9 @@
+My Observations:
+
+1) directly links to the word "hello" definition
+
+2. url presents misspelling?term=abcxyz meaning there's no definition for the word "abcxyz" 
+
+3. <script>alert(%27hello%27)</script> query is converted to a string, thus not running the javascript code and returning specific words that are known (alert and hello)
+
+4. same results as above, returns known words and ignores <script> tag
